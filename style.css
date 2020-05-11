@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+}
+
+.main {
+    width: auto;
+    height: auto;
+    padding-top: 200px;
+}
+
+.fizzbuzz {
+    color: orange;
+    font-size: 150px;
+    padding: 1%;
+    display: inline-block;
+    font-style: italic;
+    text-shadow: -4px 4px 2px red;
+    opacity: 0;
+    transition: all 2s;
+}
+
+.fizz {
+    color: royalblue;
+    font-size: 32px;
+    padding: 1% 2% 1% 2%;
+    display: inline-block;
+    text-shadow: -4px 4px 2px blue;
+    opacity: 0;
+    transition: all 2s;
+}
+
+.buzz {
+    color: red;
+    font-size: 35px;
+    padding: 1% 2% 1% 2%;
+    display: inline-block;
+    text-shadow: -4px 4px 2px rgb(104, 2, 2);
+    opacity: 0;
+    transition: all 2s;
+}
+
+
+.typ {
+    color: green;
+    font-size: 25px;
+    padding: 1% 2% 1% 2%;
+    display: inline-block;
+    opacity: 0;
+    transition: all 2s;
+
+    
+}
+
+
+.typ.show{
+    opacity: 1;
+    transform: translateY(-200px);
+}
+
+.fizzbuzz.show{
+    opacity: 1;
+    transform: translateY(-200px) rotate(360deg);
+    font-size: 38px;
+
+}
+
+.fizz.show{
+    opacity: 1;
+    transform: translateY(-200px) rotate(360deg);
+
+}
+
+.buzz.show{
+    opacity: 1;
+    transform: translateY(-200px) rotate(360deg);
+}
+
+.about{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: gold;
+    font-style: normal;
+    text-decoration: none;
+}
